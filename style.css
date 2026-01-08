@@ -15,7 +15,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0px auto;
-    padding: 16px 120px 16px 120px;
+    padding: 16px 120px;
 }
 
 nav .links{
@@ -62,8 +62,7 @@ nav .links a {
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-position: center;
-    min-height: 600px;
-    max-height: 1363px;
+    height: 674px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,4 +129,136 @@ nav .links a {
 
 .btn-secondary img{
     margin-right: 10px;
+}
+
+.features{
+    padding: 80px 80px 0 80px;
+    background-color: #ffffff;
+}
+
+.container{
+    padding: 0 120px;  
+}
+
+.features-about{
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.features-about h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0f172a; 
+    margin-bottom: 16px;
+}
+
+.features-about p{
+    font-size: 16px;
+    color: #64748b;
+    margin: 0 auto;
+}
+
+
+.features-grid{
+    display: flex;
+    gap: 24px; 
+}
+
+.feature-card{
+    text-align: center;
+    padding: 24px;
+    box-shadow: 0 0 8px 0 #00000028;
+    border-radius: 8px;
+    height: 300px;
+}
+
+
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: #ff5e5e; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px auto 24px auto;
+}
+
+.icon-box img{
+    width: 32px;
+}
+
+.feature-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.special{
+    white-space: nowrap;
+}
+
+.feature-card p{
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.solution {
+    padding: 120px; 
+
+.solution-container {
+    
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    align-items: center;
+    gap: 60px; 
+}
+
+.solution-image {
+    display: flex;
+    justify-content: center;
+}
+
+.solution-image img {
+    height: 600px;
+    width: auto;
+}
+
+.solution-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.solution-content p {
+    font-size: 16px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+
+.solution-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.solution-list li {
+    display: flex; 
+    gap: 6px;
+    margin-bottom: 16px;
+    color: #334155;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.list-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px; 
 }
