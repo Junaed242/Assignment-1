@@ -34,13 +34,14 @@ nav .links a {
 
 
 .btn{
-    background-color: #469165;
+    background-color: #30b868;
     font-size: 20px;
     font-weight: bold;
     color: white;
     padding: 12px 16px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 
 /* Banner Section */
@@ -349,4 +350,27 @@ nav .links a {
     font-weight: 400;
     color: #fafafade;
 }
+
+/* Hover effects */
+
+.btn-primary:hover, .btn-early-access:hover, .btn:hover {
+    background-color: #3d7a57;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #FFFFFF1A;
+    transition: background-color 0.3s ease;
+}
+
+nav .links a:hover {
+    color: #38b66c;
+    transition: color 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
 
