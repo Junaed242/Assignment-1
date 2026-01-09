@@ -1,20 +1,19 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-
+/* Nav Bar */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px auto;
     padding: 16px 120px;
 }
 
@@ -33,6 +32,7 @@ nav .links a {
     cursor: pointer;
 }
 
+
 .btn{
     background-color: #469165;
     font-size: 20px;
@@ -43,6 +43,7 @@ nav .links a {
     border: none;
 }
 
+/* Banner Section */
 .early-access {
     display: inline-flex;
     align-items: center;
@@ -68,22 +69,17 @@ nav .links a {
     justify-content: center;
     text-align: center;
     color: white;
-    /**padding: 80px 20px;**/
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-
-.banner-content{
-    padding: 16px 120px;
-    max-width: 1600px;
-    width: 100%;
-}
+    padding: 70px 120px 120px 120px;
+} 
 #banner h1{
     font-size: 72px;
 }
 
 #banner p{
     font-size: 18px;
-    color: #cbd5e1;
+    color: #FFFFFF;
     max-width: 700px;
+    padding-top: 16px;
     margin: 0 auto 40px auto;
     line-height: 24px;
 }
@@ -123,7 +119,7 @@ nav .links a {
 .btn-secondary {
     background-color: transparent;
     color: white;
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid #FFFFFF;
     padding: 12px 16px;
 }
 
@@ -131,31 +127,27 @@ nav .links a {
     margin-right: 10px;
 }
 
+/* Features Section */
 .features{
-    padding: 80px 80px 0 80px;
+    padding: 0px 120px 0 120px;
     background-color: #ffffff;
-}
-
-.container{
-    padding: 0 120px;  
 }
 
 .features-about{
     text-align: center;
     margin-bottom: 44px;
+    margin-top: 40px;
 }
 
 .features-about h2{
     font-size: 48px;
-    font-weight: 700;
-    color: #0f172a; 
+    font-weight: 700; 
     margin-bottom: 16px;
 }
 
 .features-about p{
     font-size: 16px;
     color: #64748b;
-    margin: 0 auto;
 }
 
 
@@ -191,12 +183,7 @@ nav .links a {
 .feature-card h3{
     font-size: 24px;
     font-weight: 600;
-    color: #0f172a;
     margin-bottom: 12px;
-}
-
-.special{
-    white-space: nowrap;
 }
 
 .feature-card p{
@@ -205,13 +192,12 @@ nav .links a {
     line-height: 1.6;
 }
 
+/* Second Brain Section */
+
 .solution {
     padding: 120px; 
-
+}
 .solution-container {
-    
-    margin: 0 auto;
-    padding: 0 80px;
     display: flex;
     align-items: center;
     gap: 60px; 
@@ -220,6 +206,7 @@ nav .links a {
 .solution-image {
     display: flex;
     justify-content: center;
+    border-radius: 12px;
 }
 
 .solution-image img {
@@ -230,21 +217,19 @@ nav .links a {
 .solution-content h2 {
     font-size: 48px;
     font-weight: 800;
-    color: #0f172a;
-    line-height: 1.2;
     margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .solution-content p {
     font-size: 16px;
-    color: #64748b;
+    color: #627382;
     line-height: 1.6;
 }
 
 
 .solution-list {
     list-style: none;
-    padding: 0;
     margin-top: 40px;
 }
 
@@ -252,9 +237,9 @@ nav .links a {
     display: flex; 
     gap: 6px;
     margin-bottom: 16px;
-    color: #334155;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
+    font-weight: 500;
 }
 
 .list-icon {
@@ -262,3 +247,106 @@ nav .links a {
     height: 20px;
     margin-top: 2px; 
 }
+
+/* --- Early Access Section --- */
+.early-access-section {
+    padding: 0 120px 120px 120px;
+}
+
+.early-access-container {
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.early-access-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.early-access-description {
+    font-size: 18px;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+}
+
+/* Button Styling */
+.btn-early-access {
+    background-color: #4C956C;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-early-access img{
+    width: 18px;
+}
+
+.early-access-footer {
+    font-size: 14px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+/* --- Footer Section --- */
+.footer-section {
+    background-color: #001931;
+    color: white;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.footer-logo img {
+    width: 139px;
+    height: 60px;
+}
+
+
+
+.social-label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid #FFFFFF1A;
+}
+.footer-bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fafafade;
+}
+

@@ -11,6 +11,13 @@
     />
     <title>Knowledge Vault | Structured Thinking, Not Just Note-Taking</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="inter">
     <header>
@@ -23,7 +30,7 @@
           <li><a href="#how">How It Works</a></li>
           <li><a href="#why">Why It's Different</a></li>
         </ul>
-        <div><button class="btn">Get Early Access</button></div>
+        <div><button type="button" class="btn">Get Early Access</button></div>
       </nav>
 
       <section id="banner">
@@ -105,10 +112,10 @@
       </div>
     </section>
 
-    <section class="solution">
-      <div class="container solution-container">
+    <section id="why" class="solution">
+      <div class="solution-container">
         <div class="solution-image">
-          <img src="./assets/knowledge.png" alt="Second Brain Illustration" />
+          <img src="./assets/knowledge.png" alt="Second Brain" />
         </div>
 
         <div class="solution-content">
@@ -157,5 +164,48 @@
         </div>
       </div>
     </section>
+
+    <section class="early-access-section">
+      <div class="early-access-container">
+        <h2 class="early-access-title">Ready To Think More Clearly?</h2>
+        <p class="early-access-description">
+          Join thousands of learners who are building their personal knowledge
+          vaults. Start free, no credit card required.
+        </p>
+        <button type="button" class="btn-early-access">
+          Get Early Access
+          <img src="./assets/ArrowRight.png" alt="Click for early access" />
+        </button>
+        <p class="early-access-footer">
+          Free during early access • No credit card needed
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./assets/logo-footer.png" alt="KV Logo" />
+          </div>
+
+          <div class="footer-socials">
+            <span class="social-label">Social Links</span>
+            <div class="social-icons">
+              <a href="https://x.com/"><img src="./assets/twitter.png" alt="X" /></a>
+              <a href="https://linkedin.com/"><img src="./assets/linkedin.png" alt="LinkedIn" /></a>
+              <a href="https://facebook.com/"><img src="./assets/facebook.png" alt="Facebook" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            <i class="fa-regular fa-copyright"> </i>2026 Personal Knowledge
+            Vault. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
